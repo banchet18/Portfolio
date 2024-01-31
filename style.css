@@ -13,6 +13,22 @@ a {
 html {
   scroll-behavior: smooth;
 }
+#wrapper {
+  border: 2px solid red;
+  width: 1476px;
+  height: 889px;
+  margin-top: 81px;
+}
+.header {
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1231px;
+  height: 58px;
+  transform: translate(245px, 0);
+  color: #013456;
+}
 
 /* media query */
 /* @media only screen and (min-width: 600px) {
