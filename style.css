@@ -29,6 +29,18 @@ html {
   transform: translate(245px, 0);
   color: #013456;
 }
+.header_title {
+  font-size: 40px;
+}
+.navigation {
+  border: 2px solid blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 607px;
+  height: 52px;
+  font-size: 36px;
+}
 
 /* media query */
 /* @media only screen and (min-width: 600px) {
