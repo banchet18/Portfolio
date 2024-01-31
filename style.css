@@ -8,46 +8,11 @@ ul {
 }
 a {
   text-decoration: none;
-  color: white;
 }
 html {
   scroll-behavior: smooth;
 }
 
-.header {
-  display: flex;
-  align-items: center;
-  height: 85px;
-  background-color: #170550;
-}
-.menu-row {
-  display: flex;
-  height: 55px;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 150px;
-  background-color: #170550;
-}
-.logo-img {
-  width: 100px;
-  height: 70px;
-}
-.nav-links {
-  display: flex;
-  justify-content: space-evenly;
-  width: 554px;
-}
-.hire-btn {
-  width: 150px;
-  height: 40px;
-  border-radius: 20px;
-  font-size: 16px;
-  color: #31065a;
-}
-/* banner section begins */
-
-.banner-section {
-  height: 776px;
-
-  background-color: #31065a;
-}
+/* media query */
+/* @media only screen and (min-width: 600px) {
+} */
