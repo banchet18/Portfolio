@@ -10,17 +10,18 @@ a {
   text-decoration: none;
   color: white;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .header {
   display: flex;
   align-items: center;
-  width: 1440px;
   height: 85px;
   background-color: #170550;
 }
 .menu-row {
   display: flex;
-  width: 1141px;
   height: 55px;
   justify-content: space-between;
   align-items: center;
@@ -47,6 +48,6 @@ a {
 
 .banner-section {
   height: 776px;
-  width: 1440px;
+
   background-color: #31065a;
 }
